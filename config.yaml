@@ -1,0 +1,33 @@
+project:
+  name: "Employees Talent Analytics"
+  version: "1.0.0"
+  description: "HR performance and succession planning analytics"
+
+data:
+  raw_path: "C:/Users/Shooq/Employees-talent-analytics/data/raw"
+  processed_path: "C:/Users/Shooq/Employees-talent-analytics/data/processed"
+  file_encoding: "utf-8"
+
+database:
+  type: "sqlite"
+  path: "ARAMCO_TALENT.db"
+# ----------- ASSUMED VALUES - To be validated with HR team -----------
+analysis:
+  performance_thresholds:
+    high_performer_rating: 4.5 
+    high_performer_completion: 90.0 
+    decline_threshold: 0.2
+  compensation:
+    promotion_weights:
+      performance: 0.4
+      growth: 0.3
+      development: 0.3
+
+reporting:
+  output_format: "pdf"
+  include_visualizations: true
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/employees_analytics.log"
