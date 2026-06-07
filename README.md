@@ -10,23 +10,17 @@
 
 
 
-\## 📊 Project Overview
-
+\## Project Overview
 
 
 A production-grade Python library for analyzing employee performance, succession 
-
 planning, and talent development across an organization's regional offices (Dhahran, Jeddah, 
-
 Riyadh). Designed to support data-driven HR decisions aligned with Vision 2030 
-
 workforce development goals.
 
 
 
-\## 🎯 Business Problem
-
-
+\## Business Problem
 
 HR leadership needs a systematic, data-driven approach to:
 
@@ -100,7 +94,7 @@ pip install -r requirements.txt
 
 
 
-\## 🗂️ Project Structure
+\ Project Structure
 
 employees-talent-analytics/
 
@@ -172,7 +166,7 @@ employees-talent-analytics/
 
 └── setup.py
 
-\## 📈 Key Features
+\## Key Features
 
 
 
@@ -228,20 +222,10 @@ production deployment.
 
 \## 📄 License
 
-
-
 MIT License
-
-
-
-\## 👤 Author
-
-
-
+Author:
 Shooq Homoud
-
 http://linkedin.com/in/shooq-alwuthaynani
-
 Shooq.otibii@gmail.com
 
 
